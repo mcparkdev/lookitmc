@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
+postgres = "*"
+django-cors-headers = "*"
+selenium = "*"
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+django-filter = "*"
+
+[requires]
+python_version = "3.8"
